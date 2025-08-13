@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D02C27512E1C002F005493BE /* SeeForMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeForMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02C275E2E1C0031005493BE /* SeeForMeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeForMeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02C27682E1C0031005493BE /* SeeForMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeForMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C27512E1C002F005493BE /* SeeForMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeForMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C275E2E1C0031005493BE /* SeeForMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeForMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C27682E1C0031005493BE /* SeeForMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeForMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		D02C27522E1C002F005493BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D02C27512E1C002F005493BE /* SeeForMeApp.app */,
-				D02C275E2E1C0031005493BE /* SeeForMeAppTests.xctest */,
-				D02C27682E1C0031005493BE /* SeeForMeAppUITests.xctest */,
+				D02C27512E1C002F005493BE /* SeeForMe.app */,
+				D02C275E2E1C0031005493BE /* SeeForMeTests.xctest */,
+				D02C27682E1C0031005493BE /* SeeForMeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D02C27502E1C002F005493BE /* SeeForMeApp */ = {
+		D02C27502E1C002F005493BE /* SeeForMe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D02C27722E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeApp" */;
+			buildConfigurationList = D02C27722E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMe" */;
 			buildPhases = (
 				D02C274D2E1C002F005493BE /* Sources */,
 				D02C274E2E1C002F005493BE /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				D02C27532E1C002F005493BE /* SeeForMeApp */,
 			);
-			name = SeeForMeApp;
+			name = SeeForMe;
 			packageProductDependencies = (
 			);
 			productName = "See For Me";
-			productReference = D02C27512E1C002F005493BE /* SeeForMeApp.app */;
+			productReference = D02C27512E1C002F005493BE /* SeeForMe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D02C275D2E1C0031005493BE /* SeeForMeAppTests */ = {
+		D02C275D2E1C0031005493BE /* SeeForMeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D02C27752E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeAppTests" */;
+			buildConfigurationList = D02C27752E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeTests" */;
 			buildPhases = (
 				D02C275A2E1C0031005493BE /* Sources */,
 				D02C275B2E1C0031005493BE /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				D02C27612E1C0031005493BE /* See For MeTests */,
 			);
-			name = SeeForMeAppTests;
+			name = SeeForMeTests;
 			packageProductDependencies = (
 			);
 			productName = "See For MeTests";
-			productReference = D02C275E2E1C0031005493BE /* SeeForMeAppTests.xctest */;
+			productReference = D02C275E2E1C0031005493BE /* SeeForMeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D02C27672E1C0031005493BE /* SeeForMeAppUITests */ = {
+		D02C27672E1C0031005493BE /* SeeForMeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D02C27782E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeAppUITests" */;
+			buildConfigurationList = D02C27782E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeUITests" */;
 			buildPhases = (
 				D02C27642E1C0031005493BE /* Sources */,
 				D02C27652E1C0031005493BE /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				D02C276B2E1C0031005493BE /* See For MeUITests */,
 			);
-			name = SeeForMeAppUITests;
+			name = SeeForMeUITests;
 			packageProductDependencies = (
 			);
 			productName = "See For MeUITests";
-			productReference = D02C27682E1C0031005493BE /* SeeForMeAppUITests.xctest */;
+			productReference = D02C27682E1C0031005493BE /* SeeForMeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D02C274C2E1C002F005493BE /* Build configuration list for PBXProject "SeeForMeApp" */;
+			buildConfigurationList = D02C274C2E1C002F005493BE /* Build configuration list for PBXProject "SeeForMe" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D02C27502E1C002F005493BE /* SeeForMeApp */,
-				D02C275D2E1C0031005493BE /* SeeForMeAppTests */,
-				D02C27672E1C0031005493BE /* SeeForMeAppUITests */,
+				D02C27502E1C002F005493BE /* SeeForMe */,
+				D02C275D2E1C0031005493BE /* SeeForMeTests */,
+				D02C27672E1C0031005493BE /* SeeForMeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		D02C27602E1C0031005493BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D02C27502E1C002F005493BE /* SeeForMeApp */;
+			target = D02C27502E1C002F005493BE /* SeeForMe */;
 			targetProxy = D02C275F2E1C0031005493BE /* PBXContainerItemProxy */;
 		};
 		D02C276A2E1C0031005493BE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D02C27502E1C002F005493BE /* SeeForMeApp */;
+			target = D02C27502E1C002F005493BE /* SeeForMe */;
 			targetProxy = D02C27692E1C0031005493BE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,6 +400,7 @@
 				DEVELOPMENT_TEAM = 49TX33875J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +429,7 @@
 				DEVELOPMENT_TEAM = 49TX33875J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required for preview";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -461,7 +463,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeForMeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeForMeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeForMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeForMe";
 			};
 			name = Debug;
 		};
@@ -480,7 +482,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeForMeApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeForMeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeeForMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeeForMe";
 			};
 			name = Release;
 		};
@@ -521,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D02C274C2E1C002F005493BE /* Build configuration list for PBXProject "SeeForMeApp" */ = {
+		D02C274C2E1C002F005493BE /* Build configuration list for PBXProject "SeeForMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D02C27702E1C0031005493BE /* Debug */,
@@ -530,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D02C27722E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeApp" */ = {
+		D02C27722E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D02C27732E1C0031005493BE /* Debug */,
@@ -539,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D02C27752E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeAppTests" */ = {
+		D02C27752E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D02C27762E1C0031005493BE /* Debug */,
@@ -548,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D02C27782E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeAppUITests" */ = {
+		D02C27782E1C0031005493BE /* Build configuration list for PBXNativeTarget "SeeForMeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D02C27792E1C0031005493BE /* Debug */,

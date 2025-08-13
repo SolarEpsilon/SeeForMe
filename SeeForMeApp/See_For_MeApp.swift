@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct See_For_MeApp: App {
+    @AppStorage("hasSeenOnboarding") var hasSeenOnboarding = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasSeenOnboarding {
+                StartScreenView()
+            } else {
+                OnboardingView {
+                    hasSeenOnboarding = true
+                }
+            }
         }
     }
 }
