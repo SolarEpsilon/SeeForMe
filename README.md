@@ -18,5 +18,9 @@ SeeForMe is an iOS app that helps visually impaired users detect and locate obje
 ## Demo
 ![Demo GIF](demo.gif)
 
+## Medium Post
+Post on [Medium](https://medium.com/@r_magnus/building-a-private-ai-assistant-for-the-visually-impaired-with-swift-core-ml-9a8258c4901c) demonstrating the project and giving design details
+
+
 ## License
 MIT
